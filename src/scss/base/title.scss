@@ -1,0 +1,15 @@
+.title {
+  position: relative;
+  font-size: 32px;
+  &::before {
+    content: ' ';
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    z-index: -1;
+    top: -7%;
+    left: -10px;
+    background-color: #ffa501;
+    border-radius: 100%;
+  }
+}

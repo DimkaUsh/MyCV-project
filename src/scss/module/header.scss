@@ -7,7 +7,6 @@
     top: -5px;
     height: 100%;
     padding: 22px 20px 0;
-
     display: flex;
     justify-content: space-between;
     column-gap: 10 0px;
@@ -19,6 +18,9 @@
   a {
     color: #ffffff;
     text-decoration: none;
+    &:hover {
+      color: #ffa501;
+    }
   }
 }
 
