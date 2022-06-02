@@ -8,8 +8,13 @@
     height: 45px;
     z-index: -1;
     top: -7%;
-    left: -10px;
+    left: -15px;
     background-color: #ffa501;
     border-radius: 100%;
+  }
+
+  &_section {
+    text-align: center;
+    text-decoration: underline;
   }
 }
