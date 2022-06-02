@@ -3,12 +3,12 @@
   padding: 20px 30px;
   font-size: 20px;
   text-decoration: none;
-  color: #ffffff;
-  background-color: #212121;
+  color: var(--white-color);
+  background-color: var(--main-color);
   box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
   border-radius: 10px;
 
   &:hover {
-    background-color: #ffa501;
+    background-color: var(--secondary-color);
   }
 }
