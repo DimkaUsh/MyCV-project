@@ -1,0 +1,49 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp --production"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "not dead"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.27.10",
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-shorthand": "^1.1.0",
+    "gulp-size": "^4.0.1",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.52.1",
+    "webpack": "^5.72.1",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "-": "0.0.1",
+    "D": "^1.0.0"
+  },
+  "description": ""
+}
