@@ -1,16 +1,12 @@
 .footer {
-  position: relative;
   height: 70px;
   font-size: 23px;
 
   &__wrapper {
-    position: relative;
-    top: 8px;
     height: 100%;
     padding: 15px;
     color: #ffffff;
     background-color: #212121;
-    border-radius: 8px;
   }
 
   &__text {
