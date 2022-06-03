@@ -1,0 +1,28 @@
+.education {
+  min-height: 500px;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__content {
+    width: 95%;
+    margin-top: 40px;
+  }
+
+  &__item {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__description {
+    font-size: 22px;
+    span {
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
+}
