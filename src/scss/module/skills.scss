@@ -5,22 +5,24 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     justify-content: space-between;
+    gap: 100px;
   }
 
   &__content {
-    width: 80%;
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   &__text {
-    width: 80%;
+    width: 100%;
     margin-top: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
+    gap: 50px;
+
     font-size: 22px;
     li {
       margin-top: 10px;
