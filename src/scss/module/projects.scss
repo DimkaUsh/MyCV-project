@@ -16,6 +16,34 @@
     }
   }
   &__item {
-    width: 100%;
+    img {
+      width: 100%;
+    }
+
+    &-title {
+      font-size: 30px;
+      text-align: center;
+    }
+
+    &-content {
+      width: 100%;
+
+      p {
+        margin-top: 10px;
+      }
+    }
+
+    &-footer {
+      text-align: center;
+    }
   }
+}
+
+.back-side {
+  height: 100%;
+  padding: 20px 30px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
