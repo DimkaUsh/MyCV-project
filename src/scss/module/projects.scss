@@ -8,20 +8,22 @@
   &__content {
     margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(3, 320px);
+    grid-template-rows: repeat(2, 300px);
+    row-gap: 30px;
+    column-gap: 50px;
     img {
       width: 100%;
     }
   }
+
   &__item {
     img {
       width: 100%;
     }
 
     &-title {
-      font-size: 30px;
+      font-size: 25px;
       text-align: center;
     }
 
@@ -41,7 +43,6 @@
 }
 
 .back-side {
-  height: 100%;
   padding: 20px 30px 30px;
   display: flex;
   flex-direction: column;
