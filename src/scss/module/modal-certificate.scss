@@ -1,20 +1,21 @@
-.overlay {
+.modal-certificate {
   display: none;
+}
+
+.overlay {
   position: fixed;
   width: 100%;
   height: 100%;
   top: 0;
+  background: rgba(41, 41, 41, 0.6);
   z-index: 12;
+  &:hover {
+    cursor: pointer;
+  }
 
-  &_black {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    background: rgba(41, 41, 41, 0.6);
-    &:hover {
-      cursor: pointer;
-    }
+  &_aside {
+    display: block;
+    left: 0;
   }
 }
 
@@ -26,5 +27,36 @@
 
   img {
     width: 100%;
+  }
+}
+
+.close {
+  position: absolute;
+  top: -40px;
+  right: -50px;
+  height: 68px;
+  width: 50px;
+  cursor: pointer;
+  &:hover span {
+    background-color: var(--secondary-color);
+  }
+
+  span {
+    height: 4px;
+    width: 40px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: var(--white-color);
+    border-radius: 2px;
+  }
+
+  & .leftright {
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in;
+  }
+
+  & .rightleft {
+    transform: rotate(-45deg);
+    transition: all 0.3s ease-in;
   }
 }
