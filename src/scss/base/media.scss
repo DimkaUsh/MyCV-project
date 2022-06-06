@@ -211,22 +211,7 @@
   }
 
   .hamburger {
-    width: 30px;
-    height: 20px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    span {
-      width: 30px;
-      height: 2px;
-      background-color: var(--white-color);
-    }
-    &:hover {
-      cursor: pointer;
-      span {
-        background-color: var(--secondary-color);
-      }
-    }
   }
 
   .promo {
