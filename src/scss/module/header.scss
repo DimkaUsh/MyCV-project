@@ -1,12 +1,16 @@
 .header {
-  height: 70px;
+  height: 72px;
   font-size: 23px;
+
+  &__logo {
+    width: 50px;
+  }
 
   &__wrapper {
     position: relative;
     top: -5px;
     height: 100%;
-    padding: 22px 20px 0;
+    padding: 12px 20px 0;
     display: flex;
     justify-content: space-between;
     background-color: var(--main-color);
@@ -26,6 +30,7 @@
 .menu {
   width: 550px;
   height: 100%;
+  padding-top: 10px;
 
   &__list {
     list-style: none;
