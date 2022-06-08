@@ -39,7 +39,7 @@ const certificate = () => {
     });
   });
 
-  closeButton.addEventListener('click', (e) => {
+  closeButton.addEventListener('click', () => {
     disableElement(closeButton, 1000);
     overlayCertificate.classList.toggle('overlay_open');
     setTimeout(() => changeDisplay(modalCertificate, 'none'), 500);
