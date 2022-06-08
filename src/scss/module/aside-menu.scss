@@ -1,3 +1,42 @@
 .aside {
   display: none;
+  position: absolute;
+  right: 0;
+  height: 100vh;
+  z-index: 1;
+
+  &_open {
+    z-index: 10;
+  }
+
+  &__menu {
+    position: absolute;
+    top: 0;
+    right: -320px;
+    padding: 20% 0 35%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 320px;
+    background: var(--main-color);
+    transition: all 0.3s ease-in;
+    cursor: auto;
+
+    &-list {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      a {
+        color: var(--white-color);
+        font-size: 18px;
+        text-decoration: none;
+      }
+    }
+
+    &_open {
+      right: 0;
+    }
+  }
 }

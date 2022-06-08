@@ -1,4 +1,5 @@
 import certificate from './module/certificate.js';
-import closeOverlays from './module/closeOverlays';
+import onClickHamburger from './module/onClickHamburger';
+
 certificate();
-closeOverlays();
+onClickHamburger();

@@ -23,7 +23,7 @@
   .projects {
     &__content {
       grid-template-columns: repeat(2, 320px);
-      grid-template-rows: repeat(3, 300px);
+      grid-template-rows: repeat(2, 300px);
     }
   }
 }
@@ -162,42 +162,9 @@
     display: none;
   }
 
-  .aside {
-    position: absolute;
-    top: 50px;
-    right: 0;
-    height: 100vh;
-    z-index: 10;
-
-    &__menu {
-      position: absolute;
-      top: 0;
-      right: 0;
-      padding: 20% 0 35%;
-      display: flex;
-      justify-content: center;
-      height: 100%;
-      width: 320px;
-      background: var(--main-color);
-      &-list {
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-        a {
-          color: var(--white-color);
-          font-size: 18px;
-          text-decoration: none;
-        }
-      }
-    }
-  }
-
   .header {
     position: relative;
     width: 100%;
-    z-index: 15;
 
     .container {
       width: 100%;
@@ -212,6 +179,10 @@
 
   .hamburger {
     display: flex;
+  }
+
+  .aside {
+    display: block;
   }
 
   .promo {
@@ -313,7 +284,7 @@
   .projects {
     &__content {
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(6, 300px);
+      grid-template-rows: repeat(3, 300px);
     }
   }
 
