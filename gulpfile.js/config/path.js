@@ -23,8 +23,8 @@ module.exports = {
   },
 
   img: {
-    src: pathSrc + '/assets/img/*.+(jpg|svg|png)',
-    watch: pathSrc + '/assets/img/**/*.+(jpg|svg|png)',
-    dest: pathDest + '/assets/img',
+    src: pathSrc + '/assets/**/*.+(jpg|svg|png)',
+    watch: pathSrc + '/assets/**/*.+(jpg|svg|png)',
+    dest: pathDest + '/assets/',
   },
 };
