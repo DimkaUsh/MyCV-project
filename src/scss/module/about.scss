@@ -1,12 +1,12 @@
 .about {
-  min-height: 560px;
+  min-height: 420px;
 
   &__wrapper {
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
 
-  &__content {
+  &__section {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,29 @@
     font-size: 20px;
   }
 
+  &__contacts {
+    margin-top: 40px;
+    width: 80%;
+    text-align: left;
+    font-size: 20px;
+    list-style: none;
+    li {
+      margin-top: 15px;
+    }
+    a {
+      color: #000000;
+      text-decoration: none;
+      &:hover {
+        color: var(--secondary-color);
+      }
+    }
+  }
+
   p {
     margin-top: 15px;
+  }
+
+  span {
+    font-weight: 700;
   }
 }

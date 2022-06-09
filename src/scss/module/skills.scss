@@ -1,0 +1,42 @@
+.skills {
+  min-height: 450px;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+    gap: 100px;
+  }
+
+  &__content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__text {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+
+    font-size: 22px;
+    li {
+      margin-top: 10px;
+    }
+  }
+}
+
+.slider {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 100%;
+  }
+}

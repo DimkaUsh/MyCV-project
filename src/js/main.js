@@ -1,2 +1,5 @@
-import hello from './module/hello.js';
-hello();
+import certificate from './module/certificate.js';
+import onClickHamburger from './module/onClickHamburger';
+
+certificate();
+onClickHamburger();

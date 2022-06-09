@@ -1,8 +1,17 @@
 @import './base/global';
+@import './base/variable';
 @import './base/title';
 @import './base/button';
+@import './module/overlay';
 
 @import './module/header';
 @import './module/promo';
 @import './module/about';
+@import './module/education';
+@import './module/skills';
+@import './module/projects';
 @import './module/footer';
+@import './module/modal-certificate';
+@import './module/aside-menu.scss';
+
+@import './base/media';
